@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Monospace;
+}
+.clearfix {
+  clear: both;
+}
+a, a:visited {
+  color: lightgreen;
+}
+a:hover {
+  color: darkgreen;
+}
+#loading {
+  color: red;
+}
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.items {
+  list-style: none;
+}
+.item {
+  float: left;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+.variants {
+  display: inline-block;
+}
+.variant {
+  margin: 2px;
+}
+.progress {
+  width: 100%;
+  background-color: #ddd;
+}
+.progress-bar {
+  width: 0%;
+  height: 30px;
+  background-color: #4CAF50;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}

@@ -1,3 +1,0 @@
-#!/bin/bash
-. /home/max/.envvars
-cd ~/Desktop/SpotifyExplorer && ./run

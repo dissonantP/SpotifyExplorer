@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="music_icon.png" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <img src="logo.png" style="max-width: 400px" />
+    <br />
+    <small style="margin-left: 10px">
+      <span>a </span>
+      <a href="https://dissonant.info">dissonant.info</a>
+      <span> production</span>
+    </small>
+    <br /><br />
+    <hr />
+
+    <div id="filters">
+      <h1>Filters</h1>
+
+      <div id="search-filter">
+        <form action="#">
+          <input type="submit" value="Search" />
+          <input type="text" />
+        </form>
+      </div>
+      <br />
+
+      <div id="randomize">
+        <label for="randomize">Give me random playlists</label>
+        <input id="randomize-toggle" name="randomize" type="checkbox" />
+        <br />
+        <button id="randomize-reseed">Reseed</button>
+      </div>
+      <hr />
+
+      <h1 id="loading">Loading tons of playlists, give it a sec ...</h1>
+      <div class="progress">
+        <div id="progressBar" class="progress-bar" role="progressbar"
+             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+             style="width: 0%">0%</div>
+      </div>
+
+      <div id="random-content" style="display: none">
+        <h1>Random Playlists</h1>
+        <ul class="items random"></ul>
+        <div class="clearfix"></div>
+      </div>
+
+      <div id="content" style="display: none">
+        <h1>Compilations</h1>
+        <ul class="items other"></ul>
+        <div class="clearfix"></div>
+
+        <h1>Places</h1>
+        <ul class="items places"></ul>
+        <div class="clearfix"></div>
+
+        <h1>Genres</h1>
+        <ul class="items genres"></ul>
+        <div class="clearfix"></div>
+      </div>
+
+      <br /><br /><br />
+    </div>
+  </body>
+</html>
