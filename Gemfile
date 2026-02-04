@@ -8,3 +8,4 @@ gem 'byebug'
 gem 'slim'
 gem 'coffee-script'
 gem "rack"
+gem "mini_racer"

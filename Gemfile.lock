@@ -10,7 +10,11 @@ GEM
     dotenv (2.8.1)
     execjs (2.9.1)
     google-protobuf (3.25.1)
-    google-protobuf (3.25.1-arm64-darwin)
+    libv8-node (24.1.0.0)
+    libv8-node (24.1.0.0-aarch64-linux)
+    libv8-node (24.1.0.0-arm64-darwin)
+    mini_racer (0.19.1)
+      libv8-node (~> 24.1.0.0)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
@@ -19,6 +23,8 @@ GEM
       base64 (>= 0.1.0)
       rack (~> 2.2, >= 2.2.4)
     ruby2_keywords (0.0.5)
+    sass-embedded (1.69.6-aarch64-linux-gnu)
+      google-protobuf (~> 3.25)
     sass-embedded (1.69.6-arm-linux-gnueabihf)
       google-protobuf (~> 3.25)
     sass-embedded (1.69.6-arm64-darwin)
@@ -41,6 +47,7 @@ GEM
     tilt (2.3.0)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin-23
   armv7l-linux-eabihf
 
@@ -48,6 +55,7 @@ DEPENDENCIES
   byebug
   coffee-script
   dotenv
+  mini_racer
   rack
   sass-embedded
   sinatra
